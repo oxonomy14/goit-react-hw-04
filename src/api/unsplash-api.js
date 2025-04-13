@@ -14,6 +14,6 @@ export const fetchImages = async (query, page, signal) => {
     `/search/photos?client_id=${API_KEY}&page=${page}&query=${query}`,
     { signal }
   );
-  console.log("Response", res.data);
+  //console.log("Response", res.data);
   return res.data;
 };
